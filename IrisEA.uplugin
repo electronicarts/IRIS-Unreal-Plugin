@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "IrisEA",
+	"Description": "A tool to check photosensitivity compliance in real time. Copyright (c) 2024 Electronic Arts Inc. All rights reserved.",
+	"Category": "Accessibility",
+	"CreatedBy": "Electronic Arts, Inc.",
+	"CreatedByURL": "https://www.ea.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "IrisEA",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PixelCapture",
+			"Enabled": true
+		}
+	]
+}
